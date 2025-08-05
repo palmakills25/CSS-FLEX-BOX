@@ -1,0 +1,153 @@
+!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Top 10 Songs</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #1a1a2e, #000000);
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.1);
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .item {
+            background: rgb(20, 20, 20);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .item:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 0px 15px rgba(255, 0, 212, 0.5);
+        }
+        .item img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+            border: 2px solid #ff00d4;
+        }
+        .item h1 {
+            color: #ff00d4;
+        }
+        .item h2 {
+            color: #3700ff;
+        }
+        .item h3 {
+            color: #ff0022;
+        }
+    
+        .item h4 {
+            color: #AAA;
+        }
+        .item h5 {
+            color: rgb(255, 192, 203);
+        }
+        .item h6 {
+            color: #008000;
+        }
+        .item h7 {
+            color: rgb(173, 216, 230);
+        }
+        .item h8 {
+            color: rgb(135, 206, 235);
+        }
+        .item h9 {
+            color: #FFFF00;
+        }
+        .item h10 {
+            color: #9ACD32;
+        }
+        .item p {
+            font-size: 14px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 style="color: #FFFFFF">My Top 10 Songs</h1>
+        <div class="grid">
+            <div class="item">
+                <img src="https://images.genius.com/4c1793e728dce78229a289b1c86c2571.1000x556x1.png" alt="Top 1">
+                <h1 style="font-family:'Verdana'">bandaids</h1>
+                <p>keshi</p>
+                <p>"The song "bandaids" is a masterpiece of a song that show you that moving on is a hard process but you need to accept it or you'll never get better.</p>
+            </div>
+            <div class="item">
+                <img src="https://images.genius.com/8ee3dc838a84192fd48bb654ce090f63.1000x563x1.png" alt="Top 2">
+                <h2 style="font-family:'Verdana'">atlas</h2>
+                <p>keshi</p>
+                <p>"In keshi's song "atlas," the title refers to the Greek Titan Atlas, who is burdened with carrying the world on his shoulders, symbolizing the singer's own feelings of carrying the weight of the world and his struggles</p>
+            </div>
+            <div class="item">
+                <img src="https://i.scdn.co/image/ab67616d0000b27319aff2da63b211d75341e8eb" alt="Top 3">
+                <h3 style="font-family:'Verdana'">understand</h3>
+                <p>keshi</p>
+                <p>"Understand" by Keshi is a song about finding someone who truly understands you and longing for a deep connection.</p>
+            </div>
+            <div class="item">
+                <img src="https://images.genius.com/77b0d1b460d9ba4d1388aad0722a8188.1000x1000x1.png" alt="Top 4">
+                <h4 style="font-family:'Verdana'">softspot</h4>
+                <p>keshi</p>
+                <p>A "soft spot" generally refers to a place where one is emotionally sensitive, suggesting that the speaker has a weakness regarding their partner.</p>
+            </div>
+            <div class="item">
+                <img src="https://i.scdn.co/image/ab67616d0000b27394237be74edae41560152bce" alt="Top 5">
+                <h5 style="font-family:'Verdana'">like i need u</h5>
+                <p>keshi</p>
+                <p> "like i need u" by Keshi is a poignant exploration of longing, vulnerability, and the lingering presence of a past love.</p>
+            </div>
+            <div class="item">
+                <img src="https://i.scdn.co/image/ab67616d0000b273d2cd2645f470f8eb4f10f81a" alt="Top 6">
+                <h6 style="font-family:'Verdana'">2 Soon</h6>
+                <p>keshi</p>
+                <p>keshi tells the story of a man going through the aftermath of a failed relationship, and the impuslve behavior that follows, such as seeking affection.</p>
+            </div>
+            <div class="item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqCR5ppVK7t8wiGK3e-WEtSv5nNWSuwRjjKw&s" alt="Top 7"> <br>
+                <br> <h7 style="font-family:'Verdana'">just friends</h7>
+                <p>keshi</p>
+                <p>In the context of Keshi's song "just friends," the phrase "just friends" signifies a denial of romantic feelings or a rejection of a potential romantic relationship, even if there's a strong connection or attraction. </p>
+            </div>
+            <div class="item">
+                <img src="https://i.scdn.co/image/ab67616d0000b2734ceb152f7b9e58f38e8600f9" alt="Top 8"> <br>
+              <br> <h8 style="font-family:'Verdana'">magnolia</h8>
+                <p>keshi</p>
+                <p>"magnolia" by Keshi reflects his struggles and determination to succeed, emphasizing themes of ambition, isolation, and perseverance. The magnolia flower symbolizes resilience, representing his journey to leave a lasting legacy.</p>
+            </div>
+            <div class="item">
+                <img src="https://images.genius.com/66e69b5ddb491168fb7ae117c2252098.1000x556x1.png" alt="Top 9"> <br>
+                <br> <h9 style="font-family:'Verdana'">us</h9>
+                <p>keshi</p>
+                <p>In Keshi's song "us," the lyrics explore themes of uncertainty, doubt, and the longing for a clear, permanent connection in a relationship.</p>
+            </div>
+            <div class="item">
+                <img src="https://images.genius.com/6ce2865f2b0c5c35d58b5431b69a4c90.1000x1000x1.jpg" alt="Top 10"> <br>
+              <br> <h10 style="font-family:'Verdana'">as long as it takes you</h10>
+                <p>keshi</p>
+                <p>After a break-up or fight, Keshi still has feelings for her and is willing to wait for her to change her mind and come back to him. his feelings for her are so strong he is willing to wait for her as long as it takes. He's convinced he cant live without her and is a complete mess.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
