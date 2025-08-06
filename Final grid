@@ -7,7 +7,7 @@
   <style>
     body {
       background: linear-gradient(to bottom, rgba(26, 26, 46, 0.85), rgba(0, 0, 0, 0.85)),
-                  url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.photoroom.com%2Fbackground-library%2Fscary-backgrounds&psig=AOvVaw0_hUMuLN6ud6-YukJL4Z4p&ust=1754574889906000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJD97Pqq9o4DFQAAAAAdAAAAABAE);
+                  url('https://cdn.photoroom.com/v2/image-cache?path=gs://background-7ef44.appspot.com/backgrounds_v3/scary/44_-_scary.jpg');
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
@@ -21,6 +21,7 @@
     .container {
       width: 90%;
       margin: auto;
+      background: rgba(0, 0, 0, 0.4); 
       padding: 20px;
       border-radius: 10px;
       box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.1);
@@ -31,10 +32,11 @@
       grid-template-columns: repeat(5, 1fr);
       gap: 15px;
       margin-top: 20px;
+      background: transparent; 
     }
 
     .item {
-      background: rgb(20, 20, 20);
+      background: rgba(0, 0, 0, 0.3); 
       padding: 20px;
       border-radius: 10px;
       text-align: center;
@@ -56,18 +58,12 @@
     }
 
     .item h1, .item h2, .item h3, .item h4, .item h5, .item h6, .item p {
-      font-family: 'Verdana';
+      font-family: 'Franklin Gothic Medium';
+      color: #ffffff;
     }
 
-    .item h1 { color: #341014 }
-    .item h2 { color: #341014; }
-    .item h3 { color: #341014; }
-    .item h4 { color: #341014; }
-    .item h5 { color: #341014; }
-    .item h6 { color: #341014; }
     .item p {
       font-size: 14px;
-      color: white;
     }
 
     @media screen and (max-width: 1200px) {
@@ -75,15 +71,18 @@
         grid-template-columns: repeat(3, 1fr);
       }
     }
+
     @media screen and (max-width: 768px) {
       .grid {
         grid-template-columns: repeat(2, 1fr);
       }
     }
+
     @media screen and (max-width: 480px) {
       .grid {
         grid-template-columns: 1fr;
       }
+
       .item img {
         max-height: 250px;
       }
@@ -92,7 +91,7 @@
 </head>
 <body>
   <div class="container">
-    <h1 style="color: #FFFFFF">My Top 10 Horror Movies</h1>
+    <h1>My Top 10 Horror Movies</h1>
     <div class="grid">
 
       <!-- 1 -->
