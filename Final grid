@@ -6,28 +6,33 @@
   <title>My Top 10 Horror Movies</title>
   <style>
     body {
-      background: linear-gradient(to bottom, #1a1a2e, #000000);
+      background: linear-gradient(to bottom, rgba(26, 26, 46, 0.85), rgba(0, 0, 0, 0.85)),
+                  url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.photoroom.com%2Fbackground-library%2Fscary-backgrounds&psig=AOvVaw0_hUMuLN6ud6-YukJL4Z4p&ust=1754574889906000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJD97Pqq9o4DFQAAAAAdAAAAABAE);
       background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
       font-family: Arial, sans-serif;
       text-align: center;
       color: white;
       margin: 0;
       padding: 0;
     }
+
     .container {
       width: 90%;
       margin: auto;
-      background: rgba(0, 0, 0, 0.8);
       padding: 20px;
       border-radius: 10px;
       box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.1);
     }
+
     .grid {
       display: grid;
       grid-template-columns: repeat(5, 1fr);
       gap: 15px;
       margin-top: 20px;
     }
+
     .item {
       background: rgb(20, 20, 20);
       padding: 20px;
@@ -35,10 +40,12 @@
       text-align: center;
       transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
+
     .item:hover {
       transform: scale(1.05);
       box-shadow: 0px 0px 15px rgba(255, 0, 212, 0.5);
     }
+
     .item img {
       width: 100%;
       height: auto;
@@ -47,21 +54,22 @@
       border-radius: 5px;
       border: 2px solid #ff00d4;
     }
+
     .item h1, .item h2, .item h3, .item h4, .item h5, .item h6, .item p {
       font-family: 'Verdana';
     }
-    .item h1 { color: #ff00d4; }
-    .item h2 { color: #3700ff; }
-    .item h3 { color: #ff0022; }
-    .item h4 { color: #AAA; }
-    .item h5 { color: rgb(255, 192, 203); }
-    .item h6 { color: #008000; }
+
+    .item h1 { color: #341014 }
+    .item h2 { color: #341014; }
+    .item h3 { color: #341014; }
+    .item h4 { color: #341014; }
+    .item h5 { color: #341014; }
+    .item h6 { color: #341014; }
     .item p {
       font-size: 14px;
       color: white;
     }
 
-    /* Responsive Styles */
     @media screen and (max-width: 1200px) {
       .grid {
         grid-template-columns: repeat(3, 1fr);
@@ -89,7 +97,7 @@
 
       <!-- 1 -->
       <div class="item">
-        <img src="https://m.media-amazon.com/images/I/81bs79Ed+lL._AC_SY679_.jpg" alt="The Conjuring">
+        <img src="https://static.wikia.nocookie.net/theconjuring/images/e/e3/Theconjuring02.jpg/revision/latest/scale-to-width/360?cb=20180908233652" alt="The Conjuring">
         <h1>The Conjuring</h1>
         <p>Paranormal investigators help a family tormented by a dark force in their farmhouse.</p>
       </div>
