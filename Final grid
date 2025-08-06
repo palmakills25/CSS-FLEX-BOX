@@ -41,6 +41,7 @@
       border-radius: 10px;
       text-align: center;
       transition: transform 0.3s ease, box-shadow 0.3s ease;
+      font-family: Sinister 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
     .item:hover {
