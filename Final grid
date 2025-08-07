@@ -4,6 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+
   <title>My Top 10 Horror Movies</title>
   <style>
     body {
@@ -60,13 +62,30 @@
       border: 2px solid #ff00d4;
     }
 
-    .item h1, .item h2, .item h3, .item h4, .item h5, .item h6, .item p {
-      font-family: 'Franklin Gothic Medium';
-      color: #ffffff;
-    }
+    .item h1,
+    .item h2,
+    .item h3,
+    .item h4,
+    .item h5,
+    .item h6 {
+  font-family: 'Creepster', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px; 
+  color: #ffffff;
+  margin: 10px 0;
+}
+.container h1 {
+  font-family: 'Creepster', cursive;
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+
+    
 
     .item p {
-      font-size: 14px;
+      font-size: 15px;
+       font-family: 'Creepster', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
     @media screen and (max-width: 1200px) {
@@ -85,6 +104,18 @@
       .grid {
         grid-template-columns: 1fr;
       }
+     
+      @media screen and (max-width: 768px) {
+  .item h1,
+  .item h2,
+  .item h3,
+  .item h4,
+  .item h5,
+  .item h6 {
+    color: red;
+  }
+}
+
 
       .item img {
         max-height: 250px;
