@@ -25,6 +25,7 @@
       padding: 20px;
       border-radius: 10px;
       box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.1);
+      font-size: medium;
     }
 
     .grid {
@@ -104,63 +105,63 @@
 
       <!-- 2 -->
       <div class="item">
-        <img src="https://m.media-amazon.com/images/I/81bNq+5lLJL._AC_SY679_.jpg" alt="Hereditary">
+        <img src="https://static.wikia.nocookie.net/filmguide/images/c/c2/HereditaryPoster.jpg/revision/latest/thumbnail/width/360/height/360?cb=20180410031551" alt="Hereditary">
         <h2>Hereditary</h2>
         <p>A grieving family unravels horrifying secrets about their ancestry and fate.</p>
       </div>
 
       <!-- 3 -->
       <div class="item">
-        <img src="https://m.media-amazon.com/images/I/91vGpFj8edL._AC_SL1500_.jpg" alt="Insidious">
+        <img src="https://upload.wikimedia.org/wikipedia/en/2/2d/Insidious_poster.jpg" alt="Insidious">
         <h3>Insidious</h3>
         <p>A child slips into a coma and his family faces ghostly terrors in another dimension.</p>
       </div>
 
       <!-- 4 -->
       <div class="item">
-        <img src="https://m.media-amazon.com/images/I/71ZKUf9wW0L._AC_SY679_.jpg" alt="The Babadook">
+        <img src="https://upload.wikimedia.org/wikipedia/en/d/d7/The-Babadook-Poster.jpg" alt="The Babadook">
         <h4>The Babadook</h4>
         <p>A mysterious children's book unleashes grief and fear on a struggling mother and son.</p>
       </div>
 
       <!-- 5 -->
       <div class="item">
-        <img src="https://m.media-amazon.com/images/I/81mD7TADnGL._AC_SL1500_.jpg" alt="It (2017)">
+        <img src="https://upload.wikimedia.org/wikipedia/en/5/5a/It_%282017%29_poster.jpg" alt="It (2017)">
         <h5>It (2017)</h5>
         <p>Children face off against a terrifying shape-shifting clown feeding on fear.</p>
       </div>
 
       <!-- 6 -->
       <div class="item">
-        <img src="https://m.media-amazon.com/images/I/91nhK4Rb+CL._AC_SL1500_.jpg" alt="A Quiet Place">
+        <img src="https://m.media-amazon.com/images/M/MV5BMjI0MDMzNTQ0M15BMl5BanBnXkFtZTgwMTM5NzM3NDM@._V1_FMjpg_UX1000_.jpg" alt="A Quiet Place">
         <h6>A Quiet Place</h6>
         <p>In silence, a family tries to survive deadly creatures that hunt by sound.</p>
       </div>
 
       <!-- 7 -->
       <div class="item">
-        <img src="https://m.media-amazon.com/images/I/81F43Fq8y1L._AC_SY679_.jpg" alt="Get Out">
+        <img src="https://m.media-amazon.com/images/M/MV5BMjUxMDQwNjcyNl5BMl5BanBnXkFtZTgwNzcwMzc0MTI@._V1_.jpg" alt="Get Out">
         <h4>Get Out</h4>
         <p>A psychological thriller revealing shocking secrets during a weekend visit.</p>
       </div>
 
       <!-- 8 -->
       <div class="item">
-        <img src="https://m.media-amazon.com/images/I/91rzGQWfYJL._AC_SL1500_.jpg" alt="The Ring">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Theringpostere.jpg/250px-Theringpostere.jpg" alt="The Ring">
         <h5>The Ring</h5>
         <p>A cursed videotape leads to a deadly phone call and a race against time.</p>
       </div>
 
       <!-- 9 -->
       <div class="item">
-        <img src="https://m.media-amazon.com/images/I/81+5+ZIQ5XL._AC_SY679_.jpg" alt="Sinister">
+        <img src="https://m.media-amazon.com/images/M/MV5BMjI5MTg1Njg0Ml5BMl5BanBnXkFtZTcwNzg2Mjc4Nw@@._V1_.jpg" alt="Sinister">
         <h6>Sinister</h6>
         <p>A writer discovers haunted footage revealing horrifying murders linked to a demon.</p>
       </div>
 
       <!-- 10 -->
       <div class="item">
-        <img src="https://m.media-amazon.com/images/I/71U1+AYKwtL._AC_SY679_.jpg" alt="The Exorcist">
+        <img src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p6107_p_v10_az.jpg" alt="The Exorcist">
         <h6>The Exorcist</h6>
         <p>A girl possessed by a demon shocks a nation in this classic of supernatural horror.</p>
       </div>
